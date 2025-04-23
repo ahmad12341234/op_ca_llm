@@ -1,5 +1,5 @@
 from ollama import chat
-"""
+
 response = chat(model='gemma3:1b', messages=[
   {
     'role': 'user',
@@ -28,7 +28,6 @@ response_3 = chat(model='gemma3:1b', messages=[
 
 print(response_3.message.content)
 
-"""
 tease_response = chat(model='gemma3:1b', messages=[
   {
     'role': 'user',
